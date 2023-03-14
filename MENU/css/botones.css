@@ -1,0 +1,57 @@
+.btnCenter .v-btn {border-radius: 0;}
+.btn {
+    -moz-box-shadow: 0px 1px 1px rgb(204, 202, 202) !important;
+    -webkit-box-shadow: 0px 1px 1px rgb(204, 202, 202) !important;
+    box-shadow: 0px 1px 1px rgb(204, 202, 202) !important;
+    border-radius: 2px !important;
+    width: 177px;
+    min-width: 120px !important;
+    margin-top: 0px !important;
+    letter-spacing: normal !important;
+}
+.btn .v-btn__content {
+    font-size: 10px;
+    font-family: 'Avenir_Next_Bold', sans-serif;
+}
+/*.btnCenter button { margin: 0px 1% 10px 0px;}*/
+
+.botonTerciario {
+    background-color: #fafafa !important;
+    text-transform: capitalize !important;
+}
+.botonSecundario {
+    background-color: #54585a !important;
+    color: #fff !important;
+    text-transform: capitalize !important;
+}
+.botonPrimario {
+    background-color: #3FAE2A !important;
+    color: #fff!important;
+    text-transform: capitalize !important;
+}
+.botonPrimario:hover {
+    background-color: #0c8e1a !important;
+    transition: background-color 0.5s ease;
+}
+
+.botonPrimarioExtendido {
+    background-color: #3FAE2A !important;
+    color: #fff!important;
+    text-transform: capitalize !important;
+    width: 70%;
+}
+
+.piepag{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100vw;
+}
+.botonIcono {
+    width: 25px;
+    padding-right: 5px;
+} 
+
+.v-btn:not(.v-btn--round).v-size--default {    
+    height: 30px !important;
+}

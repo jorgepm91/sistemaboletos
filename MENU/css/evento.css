@@ -1,0 +1,29 @@
+.inputentradatxt {
+  border-color: black;
+  border-style: ridge;
+  text-align: center;
+  margin-left: 2%;
+  width: 62vh;
+}
+
+.formevento {
+align-content: center;
+ padding-left: 20%;
+ }
+ 
+div.col4:nth-child(1) > input:nth-child(2) {
+  border-style: groove;
+}
+
+div.col4:nth-child(2) > input:nth-child(2) {
+  border-style: groove;
+}
+
+
+.inputentradacl {
+  border-color: black;
+  border-style: ridge;
+  text-align: center;
+  margin-left: 2%;
+  width: 4vw;
+}
